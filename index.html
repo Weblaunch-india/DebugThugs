@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyderabad University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <header id="navbar" class="fixed top-0 z-50 w-full">
+      <!--Suprabath-->
+      <nav id="nav-bar">
+        <div class="mx-auto max-w-7xl px-8">
+          <div class="flex h-20 items-center justify-between">
+            <div class="flex flex-1 items-center justify-between">
+              <img
+                class="h-40 w-auto"
+                src="/assets/logo/Landscape-Logo.png"
+                alt="ABC University"
+              />
+              <div class="ml-6 block">
+                <div class="flex space-x-4 items-center">
+                  <a
+                    href="#about-us"
+                    class="text-white transition-all hover:text-base px-3 py-2 rounded-md text-sm font-medium"
+                    aria-current="page"
+                    >About Us</a
+                  >
+
+                  <a
+                    href="#discover"
+                    class="text-white transition-all hover:text-base px-3 py-2 rounded-md text-sm font-medium"
+                    >Discover</a
+                  >
+
+                  <a
+                    href="#placements"
+                    class="text-white transition-all hover:text-base px-3 py-2 rounded-md text-sm font-medium"
+                    >Placements</a
+                  >
+
+                  <a
+                    href="#news-announcements"
+                    class="text-white transition-all hover:text-base px-3 py-2 rounded-md text-sm font-medium"
+                    >Announcements</a
+                  >
+
+                  <a
+                    href="#enquiry-form"
+                    class="text-white transition-all hover:text-base px-3 py-2 rounded-md text-sm font-medium"
+                    >Enquire</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="relative">
+      <section id="about-us" class="h-100 relative">
+        <img
+          src="/assets/images/university.jpg"
+          alt="ABC University"
+          class="w-full object-cover"
+        />
+        <div
+          class="font-sans absolute text-7xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center place-self-center"
+        >
+          <h1
+            class="max-w-2xl mb-4 text-5xl font-extrabold leading-none tracking-tight md:text-6xl xl:text-8xl dark:text-white"
+          >
+            Hyderabad
+          </h1>
+          <h3
+            class="max-w-2xl mb-4 text-2xl font-bold leading-none tracking-tight md:text-2xl xl:text-3xl dark:text-white"
+          >
+            University
+          </h3>
+        </div>
+        <!-- Suprabath -->
+      </section>
+      <section id="discover" class="h-60">
+        <!-- Harshitha M -->
+        <!-- Why ABC University -->
+        <!-- Future at ABC University -->
+      </section>
+      <section id="placements" class="h-60">
+        <!-- Harshitha M -->
+        <!-- Placements at ABC University -->
+      </section>
+      <section id="news-announcements" class="h-60">
+        <!-- Rithvik -->
+        <!-- Circular for students -->
+      </section>
+      <section id="events" class="h-60">
+        <!-- Rithvik -->
+        <!-- Upcoming events -->
+      </section>
+      <section id="enquiry-form" class="h-60">
+        <!-- Harshitha Sree -->
+        <!-- Form -->
+      </section>
+      <section id="footer" class="h-60">
+        <!-- Harshitha Sree -->
+        <!-- Quick links/ Footer -->
+      </section>
+    </main>
+    <script>
+      var myNav = document.getElementById("navbar");
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop >= 400 ||
+          document.documentElement.scrollTop >= 400
+        ) {
+          myNav.classList.add("bg-black");
+        } else {
+          myNav.classList.remove("bg-black");
+        }
+      };
+    </script>
+  </body>
+</html>
